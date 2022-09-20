@@ -1,6 +1,6 @@
 :root {
     --color-green: #4B9200;
-    --color-orange: linear-gradient(#F9804B, #FE9013);
+    --color-orange: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     --color-yellow: #FFEE2E;
     --color-black-blue: #333B41;
     --color-white: #FDFDFF;
@@ -14,4 +14,8 @@
     --font-family-m: RobotoMedium, sans-serif;
     --font-family-r: RobotoRegular, sans-serif;
     --font-family-l: RobotoLight, sans-serif;
+}
+
+body {
+    margin: 0;
 }
