@@ -134,10 +134,13 @@ h1 {
     color: var(--color-yellow);
 }
 
+.backstage {
+    margin: 40px auto 180px auto;
+    max-width: 1160px;
+}
+
 .backstage .container {
-    margin: 40px 13.75% 180px 13.75%;
     display: grid;
-    border-style: border-box;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -183,7 +186,6 @@ h1 {
 }
 
 .pets-card {
-    flex: 1 1 auto;
     margin: 10px 10px;
     box-sizing: border-box;
     width: 366px;
@@ -222,8 +224,14 @@ h1 {
 }
 
 .card-image {
-    width: 33px;
-    height: 37px;
+    /* width: 33px;
+    height: 37px; */
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.pets-card-image {
+    width: 100%;
 }
 
 .pets-button {
@@ -238,4 +246,63 @@ h1 {
     text-transform: uppercase;
     line-height: 22.4px;
     color: rgba(255, 255, 255, 1);
+}
+
+.left-arrow,
+.right-arrow {
+    width: 62px;
+    height: 62px;
+    background: var(--color-orange);
+    position: absolute;
+    border-radius: 50%;
+}
+
+.right-arrow img {
+    position: absolute;
+    left: 37.1%;
+    top: 43.55%;
+}
+
+.left-arrow img {
+    position: absolute;
+    left: 37.1%;
+    top: 43.55%;
+}
+
+.left-arrow {
+    left: 8.625%;
+    top: 1906px;
+}
+
+.right-arrow {
+    right: 8.625%;
+    top: 1906px;
+}
+
+.palm {
+    position: absolute;
+    left: 0;
+    top: 2149px;
+}
+
+.strelitzia {
+    position: absolute;
+    right: 0;
+    top: 2334px;
+}
+
+
+/* pick and feed */
+
+.pick-and-feed-bg {
+    box-sizing: border-box;
+    padding: 69px 220px 100px 220px;
+    background: var(--color-orange-gradient);
+    width: 100%;
+}
+
+.pick-and-feed .container {
+    background: rgba(253, 253, 255, 0.52);
+    height: 835px;
+    border-radius: 4px;
 }
