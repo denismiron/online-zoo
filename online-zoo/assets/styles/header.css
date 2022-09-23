@@ -22,6 +22,7 @@ h1 {
 
 .header-logo {
     display: flex;
+    position: relative;
 }
 
 .header-logo-title {
@@ -34,11 +35,12 @@ h1 {
 }
 
 .header-logo-icon {
+    box-sizing: border-box;
     width: 9px;
-    height: 21px;
-    position: relative;
-    top: 36px;
-    right: 76px;
+    height: 38px;
+    position: absolute;
+    top: 28.64px;
+    left: 12.23px;
 }
 
 .figma-link {
@@ -79,7 +81,8 @@ h1 {
     z-index: -1;
     width: 100%;
     height: 780px;
-    background-image: url(/assets/images/Giant\ Panda.png);
+    background: url(/assets/images/Giant\ Panda.png) no-repeat center center;
+    background-size: cover;
 }
 
 .orange-circle {
@@ -102,8 +105,8 @@ h1 {
     max-width: 500px;
     top: -9px;
     left: 880px;
-    font-family: var(--font-family-r);
-    line-height: 80px;
+    font-family: var(--font-family-b);
+    line-height: 75%;
     color: white;
     text-align: center;
     text-transform: uppercase;
@@ -131,8 +134,8 @@ h1 {
     color: var(--color-yellow);
 }
 
-.container {
-    margin: 40px 220px 0 220px;
+.backstage .container {
+    margin: 40px 13.75% 180px 13.75%;
     display: grid;
     border-style: border-box;
     grid-template-columns: repeat(2, 1fr);
@@ -165,4 +168,74 @@ h1 {
     position: absolute;
     top: 792px;
     right: 0;
+}
+
+.pets {
+    margin: 0 13.75%;
+}
+
+.pets .wrapper {
+    display: flex;
+    margin: 0 -5px 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pets-card {
+    flex: 1 1 auto;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    width: 366px;
+    height: 426px;
+    border-radius: 5px;
+    border: 1px solid #FA6F32;
+    border-image-source: linear-gradient(113.96deg, #FA6F32 1.49%, #FE9013 101.44%);
+    border-image-slice: 1;
+}
+
+.pets p {
+    padding: 0;
+    margin: 0;
+}
+
+.card-content {
+    display: flex;
+    font-family: var(--font-family-r);
+    margin-left: 16px;
+}
+
+.card-content-btn {
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    padding: 0;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 600;
+}
+
+.card-content p {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+.card-image {
+    width: 33px;
+    height: 37px;
+}
+
+.pets-button {
+    width: 25.689%;
+    height: 54px;
+    margin: 0 37.155% 100px;
+    background: #FE9013;
+    border: none;
+    border-radius: 25px;
+    font-family: var(--font-family-r);
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 22.4px;
+    color: rgba(255, 255, 255, 1);
 }
