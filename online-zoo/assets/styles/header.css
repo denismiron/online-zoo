@@ -306,3 +306,121 @@ h1 {
     height: 835px;
     border-radius: 4px;
 }
+
+.pick-and-feed-text {
+    font-family: var(--font-family-r);
+    color: var(--color-black-blue);
+    text-align: left;
+}
+
+.pick-and-feed-title {
+    margin: 0;
+    padding-top: 41px;
+    padding-bottom: 0;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    text-align: center;
+    color: #FE9013;
+}
+
+.pick-and-feed-subtitle,
+.pick-and-feed-bold,
+.pick-and-feed-notbold {
+    margin-left: 87px;
+}
+
+.pick-and-feed-subtitle {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.pick-and-feed-bold {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.pick-and-feed-notbold {
+    max-width: 863px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.pick-and-feed-notbold a {
+    display: inline;
+    outline: none;
+    text-decoration: none;
+    color: var(--color-black-blue);
+    border-bottom: 1px solid #FE9013;
+}
+
+.pick-and-feed h3 {
+    margin: 60px 488px 40px 463px;
+    font-family: var(--font-family-r);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47px;
+    text-align: left;
+    color: var(--color-black-blue);
+}
+
+.pick-and-feed .wrapper {
+    display: flex;
+    margin-left: 186px;
+    margin-right: 210px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pick-and-feed .card {
+    width: 168px;
+    height: 168px;
+    background: #FFFFFF;
+    border: 1px solid;
+    border-image-source: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+.pick-and-feed .pay-img {
+    margin-top: 54px;
+    margin-left: 30px;
+}
+
+.pick-and-feed .zoo-img {
+    margin-top: 38px;
+    margin-left: 41px;
+}
+
+.pick-and-feed .monkey-img {
+    margin-top: 48px;
+    margin-left: 22px;
+}
+
+.pick-and-feed .card-text {
+    max-width: 168px;
+    font-family: var(--font-family-r);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-black-blue);
+}
+
+.pick-and-feed-button {
+    margin: 100px 424px 0 443px;
+    width: 298px;
+    height: 54px;
+    background: var(--color-orange);
+    border-radius: 25px;
+    border: none;
+    color: #FFFFFF;
+    font-family: var(--font-family-r);
+    font-size: 16px;
+    text-transform: uppercase;
+}
