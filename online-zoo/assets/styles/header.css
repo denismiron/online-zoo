@@ -295,16 +295,16 @@ h1 {
 /* pick and feed */
 
 .pick-and-feed-bg {
-    box-sizing: border-box;
-    padding: 69px 220px 100px 220px;
+    padding: 69px 0 100px 0;
     background: var(--color-orange-gradient);
-    width: 100%;
 }
 
 .pick-and-feed .container {
     background: rgba(253, 253, 255, 0.52);
-    height: 835px;
+    box-sizing: border-box;
     border-radius: 4px;
+    max-width: 1160px;
+    margin: 0 auto;
 }
 
 .pick-and-feed-text {
@@ -359,12 +359,12 @@ h1 {
 }
 
 .pick-and-feed h3 {
-    margin: 60px 488px 40px 463px;
+    margin: 60px 0 40px 0;
     font-family: var(--font-family-r);
     font-size: 36px;
     font-weight: 400;
     line-height: 47px;
-    text-align: left;
+    text-align: center;
     color: var(--color-black-blue);
 }
 
@@ -402,6 +402,7 @@ h1 {
 }
 
 .pick-and-feed .card-text {
+    padding-top: 45px;
     max-width: 168px;
     font-family: var(--font-family-r);
     font-size: 16px;
@@ -413,7 +414,7 @@ h1 {
 }
 
 .pick-and-feed-button {
-    margin: 100px 424px 0 443px;
+    margin: 100px 36% 60px 36%;
     width: 298px;
     height: 54px;
     background: var(--color-orange);
@@ -423,4 +424,51 @@ h1 {
     font-family: var(--font-family-r);
     font-size: 16px;
     text-transform: uppercase;
+}
+
+
+/* Testimonials */
+
+.testimonials h3 {
+    margin-top: 140px;
+    color: var(--color-black-blue);
+    font-family: var(--font-family-r);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47px;
+    text-align: center;
+}
+
+.testimonials .container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.testimonials-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin-top: 47px;
+}
+
+.testimonials-item {
+    background: var(--color-gray-light);
+    padding: 15px 15px 0 16px;
+    max-height: 391px;
+    overflow: hidden;
+    border: 1px solid rgba(243, 169, 248, 0.66);
+    border-radius: 20px;
+}
+
+.testimonials p {
+    margin: 0;
+}
+
+.testimonials-item-container {
+    display: flex;
+}
+
+.testimonials-item-container img {
+    padding-right: 10px;
+    padding-bottom: 11px;
 }
