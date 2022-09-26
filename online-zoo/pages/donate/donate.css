@@ -1,0 +1,41 @@
+body {
+    font-family: var( --font-family-r);
+}
+
+.main-pandabg {
+    width: 100%;
+    background: url(/assets/images/panda_bg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.pick-and-feed-donate {
+    background: var(--color-orange-gradient);
+}
+
+.pick-and-feed-donate .container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.footer-donate {
+    background: black;
+}
+
+.footer-donate .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.donate-text {
+    padding-top: 40px;
+}
+
+.donate-text h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47px;
+    text-align: left;
+}
