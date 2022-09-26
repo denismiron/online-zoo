@@ -14,6 +14,9 @@
     --font-family-m: RobotoMedium, sans-serif;
     --font-family-r: RobotoRegular, sans-serif;
     --font-family-l: RobotoLight, sans-serif;
+    --animation-speed: 0.2s;
+    --animation-func: ease;
+    --animation: var(--animation-speed) var(--animation-func);
 }
 
 html {

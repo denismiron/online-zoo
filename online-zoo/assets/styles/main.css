@@ -66,9 +66,22 @@
     text-transform: uppercase;
 }
 
+.animal-online-btn:hover {
+    color: #fff;
+    background: #E47209;
+    cursor: pointer;
+}
+
+.animal-online-btn:active {
+    background: var(--color-green);
+}
+
 .animal-online-text-orange {
     color: var(--color-yellow);
 }
+
+
+/* Backstage */
 
 .backstage {
     margin: 40px auto 180px auto;
@@ -109,6 +122,9 @@
     right: 0;
 }
 
+
+/* PETS */
+
 .pets {
     margin: 0 13.75%;
 }
@@ -122,6 +138,8 @@
 }
 
 .pets-card {
+    position: relative;
+    z-index: -1;
     margin: 10px 10px;
     box-sizing: border-box;
     width: 366px;
@@ -184,6 +202,14 @@
     color: rgba(255, 255, 255, 1);
 }
 
+.pets-button:hover {
+    background: #E47209;
+}
+
+.pets-button:active {
+    background: var(--color-green);
+}
+
 .left-arrow,
 .right-arrow {
     width: 62px;
@@ -191,6 +217,11 @@
     background: var(--color-orange);
     position: absolute;
     border-radius: 50%;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+    background: var(--color-green);
 }
 
 .right-arrow img {
@@ -247,6 +278,11 @@
     font-family: var(--font-family-r);
     color: var(--color-black-blue);
     text-align: left;
+}
+
+.emergency-support:hover {
+    color: #FE9013;
+    cursor: pointer;
 }
 
 .pick-and-feed-title {
@@ -362,6 +398,15 @@
     text-transform: uppercase;
 }
 
+.pick-and-feed-button:hover {
+    background: #E47209;
+    cursor: pointer;
+}
+
+.pick-and-feed-button:active {
+    background: var(--color-green);
+}
+
 
 /* Testimonials */
 
@@ -472,6 +517,15 @@
     border: none;
     border-radius: 5px;
     text-transform: uppercase;
+}
+
+.testimonials .container button:hover {
+    background: #E47209;
+    cursor: pointer;
+}
+
+.testimonials .container button:active {
+    background: var(--color-green);
 }
 
 .testimonials-leaves {

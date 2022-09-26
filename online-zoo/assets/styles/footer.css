@@ -42,6 +42,19 @@
     margin-top: 41px;
 }
 
+.footer-logo a {
+    text-decoration: none;
+    outline: none;
+}
+
+.footer-logo a:hover {
+    background: var(--color-orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+
 .footer-logo h2 {
     margin: 0;
     font-size: 19px;
@@ -63,6 +76,15 @@
     border: none;
     border-radius: 5px;
     text-transform: uppercase;
+}
+
+.footer-btn:hover {
+    background: #E47209;
+    cursor: pointer;
+}
+
+.footer-btn:active {
+    background: var(--color-green);
 }
 
 .social-media {
@@ -97,6 +119,20 @@
     background: #C4C4C4;
 }
 
+.social-media-item:hover {
+    background: var(--color-green);
+    color: var(--color-green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+
+.social-media-item:hover .circle {
+    background: var(--color-green);
+    cursor: pointer;
+}
+
 .footer-center {
     display: flex;
     align-items: flex-end;
@@ -115,6 +151,13 @@
     font-family: var(--font-family-r);
     font-size: 16px;
     line-height: 22.4px;
+}
+
+.footer-nav-link:hover {
+    background: var(--color-orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .footer-rightside {
@@ -151,9 +194,25 @@
     background: var(--color-gray-light);
     width: 129px;
     font-family: var(--font-family-r);
-    color: var(--color-green);
-    border: 1px solid var(--color-green);
+    color: var(--color-gray);
+    border: 1px solid var(--color-gray);
     border-radius: 5px;
+}
+
+.footer-submit:hover {
+    cursor: pointer;
+    border: 1px solid var(--color-green);
+    color: var(--color-green);
+}
+
+.footer-submit:active {
+    border: 1px solid var(--color-red);
+    color: var(--color-red);
+}
+
+.footer-designedby a {
+    outline: none;
+    text-decoration: none;
 }
 
 .footer-designedby p {
@@ -164,4 +223,9 @@
     line-height: 21px;
     text-align: left;
     color: #fff;
+}
+
+.footer-designedby p:hover {
+    color: var(--color-green);
+    text-decoration: underline;
 }

@@ -26,6 +26,19 @@ h1 {
     position: relative;
 }
 
+.header-logo a {
+    text-decoration: none;
+    outline: none;
+}
+
+.header-logo:hover {
+    background: var(--color-orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+
 .header-logo-title {
     border: 1px solid #FFFFFF;
     border-radius: 2px;
@@ -57,6 +70,13 @@ h1 {
 }
 
 .active {
+    background: var(--color-orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header-nav-link:hover {
     background: var(--color-orange);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
