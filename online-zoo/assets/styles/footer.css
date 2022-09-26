@@ -1,0 +1,167 @@
+.footer {
+    margin-top: 204px;
+    background: black;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1160px;
+    margin-top: 41px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-leftside,
+.footer-center,
+.footer-rightside {
+    margin-bottom: 50px;
+}
+
+.footer-logo-title {
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    font-size: 19px;
+    color: white;
+    font-family: var(--font-family-r);
+    padding: 3.55px 4.75px;
+}
+
+.footer-logo-icon {
+    box-sizing: border-box;
+    width: 9px;
+    height: 38px;
+    position: absolute;
+    top: 17.64px;
+    left: 12.23px;
+}
+
+.footer-logo {
+    display: flex;
+    position: relative;
+    margin-top: 41px;
+}
+
+.footer-logo h2 {
+    margin: 0;
+    font-size: 19px;
+    text-align: center;
+}
+
+.footer-btn {
+    margin-top: 68px;
+    height: 54px;
+    width: 298px;
+    color: #FFFFFF;
+    background: var(--color-orange);
+    font-family: var(--font-family-r);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    margin-top: 44px;
+}
+
+.social-media-item {
+    display: flex;
+    margin-top: 10px;
+}
+
+.social-media-item p {
+    margin: 5px 0 0 12px;
+    font-family: var(--font-family-r);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.social-media-item .circle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #C4C4C4;
+}
+
+.footer-center {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 32px;
+}
+
+.footer-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-family-r);
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.footer-rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-rightside h2 {
+    margin: 40px 0 0 0;
+    font-family: var(--font-family-r);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+}
+
+.footer-rightside .email {
+    margin-top: 14px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-email {
+    background: black;
+    width: 228px;
+    height: 42px;
+    font-family: var(--font-family-r);
+    border: 1px solid #F9804B;
+    color: #bdbdbd;
+}
+
+.footer-submit {
+    background: var(--color-gray-light);
+    width: 129px;
+    font-family: var(--font-family-r);
+    color: var(--color-green);
+    border: 1px solid var(--color-green);
+    border-radius: 5px;
+}
+
+.footer-designedby p {
+    margin: 0 0 0 140px;
+    font-weight: 100;
+    font-family: var(--font-family-l);
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+    color: #fff;
+}
