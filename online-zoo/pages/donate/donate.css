@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    padding-bottom: 30px;
+    padding-bottom: 170px;
 }
 
 .container .orange {
@@ -39,11 +39,13 @@ body {
 }
 
 .donate-text {
+    padding-top: 40px;
     color: #fff;
 }
 
 .donate-text h3 {
-    padding-top: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 36px;
     font-weight: 400;
     line-height: 47px;
@@ -51,13 +53,19 @@ body {
 }
 
 .donate-text p {
+    margin-top: 10px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 22px;
     text-align: left;
 }
 
+.donate-text .orange {
+    margin-top: 40px;
+}
+
 .donation-act {
+    margin-top: 60px;
     background: rgba(253, 253, 255, 0.52);
     border-radius: 20px;
     padding-bottom: 46px;
@@ -65,7 +73,7 @@ body {
 
 .donation-act h2 {
     margin: 0;
-    padding-top: 20px;
+    padding-top: 40px;
     font-size: 48px;
     font-weight: 400;
     line-height: 58px;
@@ -73,14 +81,15 @@ body {
     text-align: center;
 }
 
-.donation-act p {
-    margin: 0;
-    padding-top: 10px;
+.donation-act-text {
+    text-align: left;
     font-size: 24px;
     font-weight: 400;
     line-height: 29px;
     letter-spacing: 0em;
-    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    margin-left: 92px;
 }
 
 .donation-act .wrapper {
@@ -174,7 +183,7 @@ body {
 }
 
 .donate-footer-btn {
-    margin: 30px auto;
+    margin: 20px auto;
     height: 54px;
     width: 298px;
     background: var(--color-orange);
@@ -197,11 +206,10 @@ body {
 }
 
 .donate-footer-text {
-    margin: 0 auto;
+    margin-left: 440px;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
-    text-align: left;
     color: var(--color-black-blue);
 }
