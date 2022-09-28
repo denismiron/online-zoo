@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 780px;
+    height: 700px;
 }
 
 .bg-image {
@@ -84,7 +84,7 @@
 /* Backstage */
 
 .backstage {
-    margin: 40px auto 180px auto;
+    margin: 140px auto 180px auto;
     max-width: 1160px;
 }
 
@@ -108,7 +108,14 @@
 
 .backstge-content-text {
     font-size: 16px;
-    line-height: 130%;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.backstge-content-text2 {
+    margin-top: 34px;
+    margin-bottom: 0;
 }
 
 .backstage-content-subtitle {
@@ -131,7 +138,7 @@
 
 .pets .wrapper {
     display: flex;
-    margin: 0 -5px 80px;
+    margin: 0 -5px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -217,7 +224,7 @@
 .pets-button {
     width: 25.689%;
     height: 54px;
-    margin: 0 37.155% 100px;
+    margin: 65px 37.155% 100px;
     background: #FE9013;
     border: none;
     border-radius: 25px;
@@ -288,7 +295,7 @@
 /* pick and feed */
 
 .pick-and-feed-bg {
-    padding: 69px 0 100px 0;
+    padding: 69px 0px 100px 0px;
     background: var(--color-orange-gradient);
 }
 
@@ -325,7 +332,7 @@
 .pick-and-feed-subtitle,
 .pick-and-feed-bold,
 .pick-and-feed-notbold {
-    margin-left: 87px;
+    margin-left: 97px;
 }
 
 .pick-and-feed-subtitle {
@@ -412,7 +419,7 @@
 }
 
 .pick-and-feed-button {
-    margin: 100px 36% 60px 36%;
+    margin: 120px 37% 60px 37%;
     width: 298px;
     height: 54px;
     background: var(--color-orange);
@@ -437,6 +444,7 @@
 /* Testimonials */
 
 .testimonials h3 {
+    margin: 0;
     margin-top: 140px;
     color: var(--color-black-blue);
     font-family: var(--font-family-r);
