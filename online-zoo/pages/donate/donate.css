@@ -39,11 +39,11 @@ body {
 }
 
 .donate-text {
-    padding-top: 40px;
     color: #fff;
 }
 
 .donate-text h3 {
+    padding-top: 40px;
     font-size: 36px;
     font-weight: 400;
     line-height: 47px;
