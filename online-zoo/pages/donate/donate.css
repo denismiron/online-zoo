@@ -44,7 +44,8 @@ body {
 }
 
 .donate-text h3 {
-    width: 1150px;
+    display: block;
+    white-space: nowrap;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 36px;
@@ -69,12 +70,11 @@ body {
     margin-top: 60px;
     background: rgba(253, 253, 255, 0.52);
     border-radius: 20px;
-    padding-bottom: 46px;
+    padding: 40px 92px 60px;
 }
 
 .donation-act h2 {
     margin: 0;
-    padding-top: 40px;
     font-size: 48px;
     font-weight: 400;
     line-height: 58px;
@@ -90,7 +90,6 @@ body {
     letter-spacing: 0em;
     margin: 0;
     padding-top: 20px;
-    margin-left: 92px;
 }
 
 .donation-act .wrapper {
@@ -131,7 +130,6 @@ body {
 }
 
 .donation-act .amount {
-    margin-left: 65px;
     margin-top: 48px;
 }
 
@@ -143,6 +141,81 @@ body {
     text-align: left;
 }
 
+.pick-feed-slider {
+    position: relative;
+}
+
+.pick-feed-range {
+    padding: 0 11px;
+    box-sizing: border-box;
+    width: 100%;
+    -webkit-appearance: none;
+    height: 27px;
+    background: #404950;
+    border-radius: 2px;
+    transition: opacity 0.2s;
+    position: relative;
+}
+
+.pick-feed-slider-dots {
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    pointer-events: none;
+    top: 9px;
+    padding: 0 26px;
+}
+
+.pick-feed-slider-dot {
+    background: #FFEE2E;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    z-index: 2;
+    position: relative;
+}
+
+.pick-feed-slider-dot:hover {
+    cursor: pointer;
+}
+
+.pick-feed-slider-line {
+    pointer-events: none;
+    box-sizing: border-box;
+    position: absolute;
+    height: 2px;
+    top: 5px;
+    left: 28px;
+    right: 28px;
+    background: #767474;
+    z-index: 1;
+    border: none;
+}
+
+.pick-feed-values {
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    width: 101%;
+    justify-content: space-between;
+    top: 38px;
+}
+
+.pick-feed-values-item {
+    width: 75px;
+    color: #333B41;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.pick-feed-values-item-active {
+    color: #FE9013;
+}
+
 .donate-footer {
     display: flex;
     flex-direction: column;
@@ -152,7 +225,7 @@ body {
 .donate-amount-input {
     display: flex;
     position: relative;
-    margin: 142px auto 0 auto;
+    margin: 92px auto 0 auto;
 }
 
 .donate-amount-input p {
@@ -207,7 +280,7 @@ body {
 }
 
 .donate-footer-text {
-    margin-left: 440px;
+    margin-left: 340px;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
