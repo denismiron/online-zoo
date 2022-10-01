@@ -107,6 +107,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #fff;
+    cursor: pointer;
 }
 
 .social-media-item .circle {
@@ -117,6 +118,7 @@
     height: 26px;
     border-radius: 50%;
     background: #C4C4C4;
+    cursor: pointer;
 }
 
 .social-media-item:hover {
@@ -125,12 +127,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    cursor: pointer;
 }
 
 .social-media-item:hover .circle {
     background: var(--color-green);
-    cursor: pointer;
 }
 
 .footer-center {

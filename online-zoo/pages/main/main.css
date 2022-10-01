@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .header-nav-link-active {
     text-decoration: none;
     font-size: 16px;
@@ -80,6 +84,31 @@
     color: var(--color-yellow);
 }
 
+@media (max-width:1000px) {
+    .bg-image {
+        width: 1000px;
+    }
+    .orange-circle {
+        width: 367px;
+        height: 367px;
+        left: 456px;
+        bottom: 148px;
+    }
+    .animal-online-text {
+        font-family: var(--font-family-r);
+        font-size: 85px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: center;
+        left: 514px;
+    }
+    .animal-online-btn {
+        top: 483px;
+        left: 565px;
+    }
+}
+
 
 /* Backstage */
 
@@ -91,6 +120,13 @@
 .backstage .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.backstage-img {
+    background: url(../../assets/images/bamboo-cap.png) no-repeat center center;
+    background-size: cover;
+    width: 608px;
+    height: 403px;
 }
 
 .backstage-content {
@@ -132,36 +168,80 @@
     right: 0;
 }
 
+@media (max-width:1599px) {
+    .backstage {
+        margin: 100px auto 180px auto;
+    }
+    .backstage .container {
+        margin: 0 auto;
+    }
+    .backstage-img {
+        width: 100%;
+        height: 408px;
+    }
+    .backstage-content {
+        margin-left: 31px;
+    }
+    .side-flower {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .backstage {
+        margin: 100px 30px 180px 30px;
+    }
+}
+
 
 /* PETS */
 
 .pets {
-    margin: 0 13.75%;
+    position: relative;
 }
 
 .pets .wrapper {
+    position: relative;
     display: flex;
-    margin: 0 -5px;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    height: 872px;
+    max-width: 1160px;
+    margin: 0px auto;
 }
 
-.pets-item:hover {
+.pets-card {
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #FA6F32;
+    border-image-source: linear-gradient(113.96deg, #FA6F32 1.49%, #FE9013 101.44%);
+    border-image-slice: 1;
+    margin-bottom: 20px;
+}
+
+.pets-card:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* .pets-card:hover {
     cursor: pointer;
     background: rgba(0, 0, 0, 0.4);
     color: #fdfdfd;
 }
 
-.pets-item:hover .pets-card-image {
+.pets-card:hover .pets-card-image {
     transform: scale(1.1);
 }
 
-.pets-item:hover .card-content-text {
+.pets-card:hover .card-content-text {
     top: 0;
 }
 
-.pets-item:hover .card-content-text {
+.pets-card:hover .card-content-text {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -172,21 +252,7 @@
     transition: .5s;
     opacity: .5;
     text-transform: uppercase;
-}
-
-.pets-card {
-    position: relative;
-    overflow: hidden;
-    z-index: -1;
-    margin: 10px 10px;
-    box-sizing: border-box;
-    width: 366px;
-    height: 426px;
-    border-radius: 5px;
-    border: 1px solid #FA6F32;
-    border-image-source: linear-gradient(113.96deg, #FA6F32 1.49%, #FE9013 101.44%);
-    border-image-slice: 1;
-}
+} */
 
 .pets p {
     padding: 0;
@@ -214,8 +280,6 @@
 }
 
 .card-image {
-    /* width: 33px;
-    height: 37px; */
     margin-left: auto;
     margin-right: 10px;
 }
@@ -225,9 +289,9 @@
 }
 
 .pets-button {
-    width: 25.689%;
+    width: 298px;
     height: 54px;
-    margin: 65px 37.155% 100px;
+    margin: 65px 40.5% 100px;
     background: #FE9013;
     border: none;
     border-radius: 25px;
@@ -246,13 +310,24 @@
     background: var(--color-green);
 }
 
-.left-arrow,
-.right-arrow {
+.left-arrow {
     width: 62px;
     height: 62px;
     background: var(--color-orange);
     position: absolute;
     border-radius: 50%;
+    left: -8%;
+    top: 45%;
+}
+
+.right-arrow {
+    width: 62px;
+    height: 62px;
+    background: var(--color-orange);
+    position: absolute;
+    right: -8%;
+    border-radius: 50%;
+    top: 45%;
 }
 
 .left-arrow:hover,
@@ -272,26 +347,41 @@
     top: 43.55%;
 }
 
-.left-arrow {
-    left: 8.625%;
-    top: 1906px;
-}
-
-.right-arrow {
-    right: 8.625%;
-    top: 1906px;
-}
-
 .palm {
     position: absolute;
     left: 0;
-    top: 2149px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.palm-adapt {
+    display: none;
 }
 
 .strelitzia {
     position: absolute;
     right: 0;
-    top: 2334px;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (max-width:1000px) {
+    .pets .wrapper {
+        margin: 0 30px;
+    }
+    .pets-card-image {
+        width: 294px;
+    }
+    .palm {
+        display: none;
+    }
+    .palm-adapt {
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+    }
 }
 
 
@@ -467,6 +557,15 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
     margin-top: 47px;
+}
+
+@media (max-width:1000px) {
+    .testimonials-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .testimonials-cards .testimonials-item:last-child {
+        display: none;
+    }
 }
 
 .testimonials-item {
