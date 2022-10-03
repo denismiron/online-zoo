@@ -3,6 +3,7 @@
 }
 
 .footer .container {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1160px;
@@ -234,5 +235,29 @@
 @media(max-width:1000px) {
     .footer .container {
         padding: 5px 18px 0 43px;
+    }
+    .social-media {
+        margin-top: 34px;
+    }
+    .footer-logo {
+        margin-top: 31px;
+    }
+    .footer-center {
+        position: absolute;
+        bottom: 0%;
+        left: 33.5%;
+    }
+    .footer-nav-link {
+        margin-right: 48px;
+    }
+    .footer-rightside {
+        position: absolute;
+        top: 0%;
+        right: 4.5%;
+    }
+    .footer-designedby {
+        position: absolute;
+        top: 345px;
+        right: -7%;
     }
 }

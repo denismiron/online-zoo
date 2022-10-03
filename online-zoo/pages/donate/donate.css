@@ -9,7 +9,7 @@ body {
     background-size: cover;
 }
 
-.container {
+.pick-and-feed-donate .container {
     padding-bottom: 170px;
 }
 
@@ -214,6 +214,10 @@ body {
 
 .pick-feed-values-item-active {
     color: #FE9013;
+}
+
+.footer-donate {
+    position: relative;
 }
 
 .donate-footer {

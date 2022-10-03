@@ -120,6 +120,33 @@ body {
     }
 }
 
+@media(max-width:640px) {
+    .animal-online-content {
+        height: 373px;
+    }
+    .bg-image {
+        height: 373px;
+    }
+    .orange-circle {
+        width: 237px;
+        height: 237px;
+        top: 44px;
+        left: 330px;
+    }
+    .animal-online-text {
+        top: 42px;
+        left: 362px;
+        max-width: 255px;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 41px;
+    }
+    .animal-online-btn {
+        top: 73%;
+        left: 3.5%;
+    }
+}
+
 
 /* Backstage */
 
@@ -201,6 +228,41 @@ body {
 @media (max-width: 1000px) {
     .backstage {
         margin: 100px 30px 180px 30px;
+    }
+}
+
+@media(max-width:900px) {
+    .backstage-img {
+        display: none;
+    }
+    .backstage .container {
+        grid-template-columns: 1fr, 20%;
+    }
+}
+
+@media(max-width:640px) {
+    .backstage {
+        margin-bottom: 80px;
+    }
+    .backstage-content {
+        margin-left: 0;
+    }
+    .backstage-content-title,
+    .backstage-content-subtitle {
+        margin-bottom: 20px;
+    }
+    .backstge-content-text {
+        margin-bottom: 30px;
+    }
+    .side-flower-wrapper {
+        overflow: hidden;
+    }
+    .side-flower {
+        overflow: hidden;
+        display: inherit;
+        width: 128px;
+        height: 476px;
+        top: 65%;
     }
 }
 
@@ -436,9 +498,30 @@ body {
     .pets-card-image {
         width: 280px;
     }
+    .pets-button {
+        margin: 0 29% 100px;
+    }
 }
 
-@media(max-width:640px) {}
+@media(max-width:640px) {
+    .left-arrow {
+        left: 36%;
+        top: 43%;
+    }
+    .right-arrow {
+        right: 36%;
+        top: 43%;
+    }
+    .palm-adapt {
+        left: -8.5%;
+        bottom: 0;
+    }
+    .strelitzia {
+        width: 30%;
+    }
+}
+
+@media(max-width:320px) {}
 
 
 /* pick and feed */
@@ -630,6 +713,12 @@ body {
     }
     .pick-and-feed-button {
         margin: 140px 34% 50px 34%;
+    }
+}
+
+@media (max-width:640px) {
+    .pick-and-feed-bg {
+        padding: 20px 0;
     }
 }
 

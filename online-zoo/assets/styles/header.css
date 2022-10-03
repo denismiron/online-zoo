@@ -69,6 +69,112 @@ h1 {
     margin-left: 58px;
 }
 
+.icon-menu {
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .header {
+        background-color: #111115;
+    }
+    .header .wrapper {
+        margin: 0 30px;
+    }
+    .header-nav-link {
+        margin-left: 48px;
+    }
+}
+
+@media (max-width:800px) {
+    .header-nav-link {
+        margin-left: 36px;
+    }
+}
+
+@media (max-width:720px) {
+    .header-nav-link {
+        margin-left: 23px;
+    }
+}
+
+@media(max-width:640px) {
+    .header {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        height: 34px;
+        top: 0;
+        left: 0;
+    }
+    .header-logo-title {
+        border: none;
+    }
+    .header-logo h1 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        margin: 0;
+    }
+    .header-logo-icon {
+        width: 9px;
+        height: 13.5px;
+        top: 18px;
+        left: 7.5px;
+    }
+    .header-nav nav {
+        display: none;
+    }
+    .figma-link {
+        display: none;
+    }
+    .icon-menu {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        width: 18px;
+        height: 10px;
+        cursor: pointer;
+        z-index: 5;
+    }
+    .icon-menu span {
+        position: absolute;
+        top: 4px;
+        left: 0px;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        animation: 0.3s;
+    }
+    .icon-menu-active span {
+        position: absolute;
+        top: 4px;
+        left: 0px;
+        width: 100%;
+        height: 2px;
+        background-color: #333B41;
+        animation: 0.3s;
+    }
+    .icon-menu span:first-child {
+        top: 0px;
+    }
+    .icon-menu span:last-child {
+        top: auto;
+        bottom: 0px;
+    }
+    .icon-menu-active span {
+        transform: scale(0);
+    }
+    .icon-menu-active :first-child {
+        transform: rotate(-45deg);
+        top: 4px;
+    }
+    .icon-menu-active span:last-child {
+        transform: rotate(45deg);
+        bottom: 4px;
+    }
+}
+
 .active {
     background: var(--color-orange);
     -webkit-background-clip: text;
@@ -81,13 +187,4 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-}
-
-@media (max-width:1000px) {
-    .header .wrapper {
-        margin: 0 30px;
-    }
-    .header-nav-link {
-        margin-left: 48px;
-    }
 }
