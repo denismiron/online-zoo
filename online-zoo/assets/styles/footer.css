@@ -47,6 +47,11 @@
     outline: none;
 }
 
+.footer-logo-adapt a {
+    text-decoration: none;
+    outline: none;
+}
+
 .footer-logo a:hover {
     background: var(--color-orange);
     -webkit-background-clip: text;
@@ -230,6 +235,10 @@
     text-decoration: underline;
 }
 
+.footer-logo-adapt {
+    display: none;
+}
+
 @media(max-width:1599px) {}
 
 @media(max-width:1000px) {
@@ -260,4 +269,106 @@
         top: 345px;
         right: -7%;
     }
+}
+
+@media(max-width:880px) {
+    .footer {
+        height: 282px;
+    }
+    .footer .container {
+        margin-top: 0;
+        padding: 12px 20px 0 20px;
+    }
+    .footer-rightside-sub {
+        display: none;
+    }
+    .footer-logo {
+        margin-top: 0;
+    }
+    .footer-btn {
+        margin-top: 48px;
+    }
+    .social-media {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        margin: 0;
+    }
+    .social-media-item p {
+        display: none;
+    }
+    .footer-center {
+        position: absolute;
+        left: 0;
+        bottom: -97px;
+        padding-left: 20px;
+    }
+    .footer-rightside {
+        position: absolute;
+    }
+    .footer-designedby {
+        position: absolute;
+        top: 220px;
+        right: -7%;
+    }
+    .footer-designedby p {
+        margin-left: 0;
+        width: 220px;
+        white-space: nowrap;
+    }
+}
+
+@media(max-width:600px) {
+    .footer .container {
+        padding: 0;
+    }
+    .footer-logo {
+        display: none;
+    }
+    .footer-logo-icon {
+        top: 19%;
+        left: 55%;
+    }
+    .footer-logo-adapt {
+        display: block;
+    }
+    .footer-logo-title {
+        width: 128px;
+        border: none;
+        position: absolute;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    .social-media {
+        position: absolute;
+        top: 33px;
+        flex-direction: row;
+    }
+    .social-media-item {
+        margin-left: 30px;
+    }
+    .footer-btn {
+        margin-top: 30px;
+        position: absolute;
+        top: 99px;
+        margin: 0 auto;
+    }
+    .footer-designedby {
+        top: 183px;
+        right: 0%;
+    }
+    .footer-center {
+        top: 262px;
+    }
+}
+
+@media(max-width:320px) {
+    .footer .container {
+        padding: 0;
+    }
+    .footer-logo-title {
+        margin-left: 96px;
+        margin-right: 96px;
+    }
+    .social-media {}
 }
