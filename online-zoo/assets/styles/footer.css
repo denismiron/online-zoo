@@ -326,6 +326,29 @@
 }
 
 @media(max-width:600px) {
+    .footer-designedby {
+        position: absolute;
+        top: 180px;
+        right: -7%;
+    }
+    .footer-nav-link {
+        margin-right: 30px;
+    }
+    .footer-nav-link:last-child {
+        width: 77px;
+    }
+}
+
+@media(max-width:400px) {
+    .social-media {
+        flex-direction: row;
+    }
+    .social-media-item {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:320px) {
     .footer .container {
         padding: 0;
     }
@@ -405,8 +428,5 @@
     }
     .footer-nav-link {
         margin-right: 30px;
-    }
-    .footer-nav-link:last-child {
-        width: 77px;
     }
 }

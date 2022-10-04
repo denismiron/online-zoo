@@ -740,8 +740,13 @@ body {
     color: var(--color-black-blue);
 }
 
+.pick-and-feed-button-wrapper {
+    width: 298px;
+    margin: 0 auto;
+}
+
 .pick-and-feed-button {
-    margin: 120px 37% 60px 37%;
+    margin: 120px 0 60px 0;
     width: 298px;
     height: 54px;
     background: var(--color-orange);
@@ -806,7 +811,7 @@ body {
         justify-content: space-between;
     }
     .pick-and-feed-button {
-        margin: 146px 34% 50px 34%;
+        margin: 146px 0 50px 0;
     }
 }
 
@@ -822,7 +827,7 @@ body {
         display: none;
     }
     .pick-and-feed-button {
-        margin: 116px 30% 60px 30%;
+        margin: 116px 0 60px 0;
     }
     .pick-and-feed-greenarrows {
         display: block;
@@ -856,6 +861,10 @@ body {
         top: 65%;
         left: 0;
         right: -52%;
+    }
+    .pick-and-feed-bold,
+    .pick-and-feed-notbold {
+        display: none;
     }
 }
 
@@ -897,10 +906,6 @@ body {
     }
     .pick-and-feed h3 {
         margin: 20px auto;
-    }
-    .pick-and-feed-bold,
-    .pick-and-feed-notbold {
-        display: none;
     }
 }
 
@@ -1006,6 +1011,11 @@ body {
     background-color: #f1f3f2;
 }
 
+.button-leave-feedback {
+    margin: 0 auto;
+    max-width: 240px;
+}
+
 .testimonials .container button {
     height: 54px;
     width: 298px;
@@ -1090,13 +1100,13 @@ body {
     }
     .testimonials .container button {
         width: 240px;
-        margin: 40px 30%;
+        margin-top: 40px;
         margin-bottom: 0;
     }
 }
 
 @media(max-width:320px) {
     .testimonials .container button {
-        margin: 30px 20px 0 20px;
+        margin-top: 30px;
     }
 }
