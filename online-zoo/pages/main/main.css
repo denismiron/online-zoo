@@ -135,25 +135,25 @@ body {
         left: 330px;
     }
     .animal-online-text {
-        top: 42px;
-        left: 362px;
+        top: 29px;
+        left: 365px;
         max-width: 255px;
         font-size: 54px;
         font-weight: 700;
         line-height: 41px;
     }
     .animal-online-btn {
-        top: 73%;
+        top: 74%;
         left: 3.5%;
     }
 }
 
 @media(max-width:600px) {
     .animal-online-content {
-        height: 187px;
+        height: 221px;
     }
     .bg-image {
-        height: 187px;
+        height: 221px;
     }
     .orange-circle {
         width: 119px;
@@ -168,6 +168,25 @@ body {
         font-size: 27px;
         font-weight: 700;
         line-height: 20px;
+    }
+    .animal-online-btn {
+        top: 110%;
+        left: 3.5%;
+    }
+}
+
+@media(max-width:320px) {
+    .orange-circle {
+        top: 56px;
+        left: 160px;
+    }
+    .animal-online-text {
+        top: 48px;
+        left: 178px;
+        max-width: 128px;
+        font-size: 27.21px;
+        font-weight: 700;
+        line-height: 20.41px;
     }
     .animal-online-btn {
         top: 110%;
@@ -255,7 +274,7 @@ body {
 
 @media (max-width: 1000px) {
     .backstage {
-        margin: 100px 30px 180px 30px;
+        margin: 100px 30px 160px 30px;
     }
 }
 
@@ -270,17 +289,20 @@ body {
 
 @media(max-width:640px) {
     .backstage {
-        margin-bottom: 80px;
+        margin: 60px 20px 45px 20px;
     }
     .backstage-content {
         margin-left: 0;
     }
-    .backstage-content-title,
-    .backstage-content-subtitle {
+    .backstage-content-title {
         margin-bottom: 20px;
     }
     .backstge-content-text {
         margin-bottom: 30px;
+    }
+    .backstge-content-text2 {
+        width: 495px;
+        margin-top: 20px;
     }
     .side-flower-wrapper {
         overflow: hidden;
@@ -290,7 +312,7 @@ body {
         display: inherit;
         width: 128px;
         height: 476px;
-        top: 65%;
+        top: 55%;
     }
 }
 
@@ -319,6 +341,33 @@ body {
         right: 0%;
         width: 100px;
         height: 220px;
+    }
+}
+
+@media(max-width:320px) {
+    .backstage {
+        margin: 105px 0 45px 10px;
+    }
+    .backstage-content-title {
+        margin-bottom: 10px;
+    }
+    .backstge-content-text {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .backstage-content-subtitle {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .backstge-content-text2 {
+        width: 300px;
+    }
+    .side-flower {
+        z-index: -1;
+        top: 40%;
+        right: 0%;
+        width: 25px;
+        height: 200px;
     }
 }
 
@@ -415,6 +464,10 @@ body {
 .card-image {
     margin-left: auto;
     margin-right: 10px;
+}
+
+.pets-card {
+    font-family: var(--font-family-r);
 }
 
 .pets-card-image {
@@ -539,8 +592,22 @@ body {
         margin: 0 30px;
         height: 801px;
     }
+    .pets-card {
+        height: 354px;
+    }
     .pets-card-image {
         width: 294px;
+    }
+    .left-arrow {
+        left: 34%;
+        top: 46%;
+    }
+    .right-arrow {
+        right: 34%;
+        top: 46%;
+    }
+    .card-content-text {
+        margin-top: 5px;
     }
     .pets-card:nth-child(6) {
         display: block;
@@ -566,13 +633,29 @@ body {
 }
 
 @media(max-width:640px) {
+    .pets .wrapper {
+        margin: 0 20px;
+    }
+    .pets-card {
+        margin-bottom: 92px;
+        height: 332px;
+    }
+    .card-content-text {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17px;
+        margin: 0;
+    }
+    .pets-button {
+        margin-top: 13px;
+    }
     .left-arrow {
-        left: 36%;
-        top: 43%;
+        left: 37%;
+        top: 42.5%;
     }
     .right-arrow {
-        right: 36%;
-        top: 43%;
+        right: 37%;
+        top: 42.5%;
     }
     .palm-adapt {
         left: -8.5%;
@@ -606,7 +689,28 @@ body {
     }
 }
 
-@media(max-width:320px) {}
+@media(max-width:320px) {
+    .pets .wrapper {
+        margin: 0 20px 0 10px;
+    }
+    .card-content {
+        margin-left: 10px;
+    }
+    .card-content-title {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .strelitzia {
+        width: 30%;
+        right: -7%;
+    }
+    .pets-button {
+        margin: -5px auto 60px;
+    }
+}
 
 
 /* pick and feed */
@@ -804,24 +908,54 @@ body {
         max-width: 813px;
     }
     .pick-and-feed h3 {
-        margin: 40px auto;
+        margin: 40px auto 38px;
     }
     .pick-and-feed .wrapper {
-        margin: 0 10%;
+        margin: 0 9.5%;
         justify-content: space-between;
     }
     .pick-and-feed-button {
-        margin: 146px 0 50px 0;
+        margin: 140px 0 50px 0;
     }
 }
 
 @media (max-width:730px) {
+    .pick-and-feed-title {
+        padding-top: 10px;
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .pick-and-feed-subtitle,
+    .pick-and-feed-bold,
+    .pick-and-feed-notbold {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .pick-and-feed-subtitle {
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-family: Roboto;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .pick-and-feed-notbold {
+        margin-top: 10px;
+    }
+    .pick-and-feed h3 {
+        margin: 30px auto 20px;
+    }
     .pick-and-feed-bg {
         padding: 20px 0;
     }
     .pick-and-feed .wrapper {
         position: relative;
-        margin: 0 20px;
+        margin: 0 30px 0 20px;
     }
     .pick-and-feed-bigarrows {
         display: none;
@@ -870,14 +1004,14 @@ body {
 
 @media (max-width:320px) {
     .green-r {
-        top: 82%;
+        top: 84.5%;
         left: 0;
-        right: -65%;
+        right: -90%;
     }
     .green-l {
-        top: 50%;
+        top: 51%;
         left: 0;
-        right: -65%;
+        right: -90%;
     }
     .pick-and-feed-bg {
         padding: 20px 11px;
@@ -885,7 +1019,7 @@ body {
     .pick-and-feed-button {
         box-sizing: border-box;
         width: 298px;
-        margin: 30px 0 40px;
+        margin: 20px 0 40px;
     }
     .pick-and-feed-title {
         padding-top: 20px;
@@ -896,16 +1030,23 @@ body {
         text-align: center;
     }
     .pick-and-feed-subtitle {
-        margin: 0;
-        margin-top: 10px;
+        font-family: var(--font-family-b);
         font-size: 18px;
         font-weight: 400;
         line-height: 22px;
         letter-spacing: 0em;
         text-align: center;
+        margin-left: 8px;
+        margin-top: 11px;
     }
     .pick-and-feed h3 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
         margin: 20px auto;
+    }
+    .pick-and-feed .card-text {
+        padding-top: 10px;
     }
 }
 
@@ -1011,11 +1152,6 @@ body {
     background-color: #f1f3f2;
 }
 
-.button-leave-feedback {
-    margin: 0 auto;
-    max-width: 240px;
-}
-
 .testimonials .container button {
     height: 54px;
     width: 298px;
@@ -1086,11 +1222,15 @@ body {
 
 @media(max-width:640px) {
     .testimonials .container {
-        margin: 0 20px 90px;
+        margin: 0 20px 80px;
     }
     .testimonials-cards {
         display: flex;
         flex-direction: column;
+        row-gap: 15px;
+    }
+    .testimonials h3 {
+        margin-top: 60px;
     }
     .testimonials-item {
         max-height: 109px;
@@ -1103,10 +1243,34 @@ body {
         margin-top: 40px;
         margin-bottom: 0;
     }
+    .button-leave-feedback {
+        margin: 0 auto;
+        max-width: 240px;
+    }
+    .testimonials-leaves {
+        bottom: -30%;
+    }
 }
 
 @media(max-width:320px) {
+    .testimonials .container {
+        margin: 0 10px 60px;
+    }
+    .testimonials-cards {
+        margin-top: 20px;
+    }
     .testimonials .container button {
         margin-top: 30px;
+    }
+    .testimonials h3 {
+        margin-top: 30px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .testimonials-leaves {
+        bottom: -20%;
     }
 }

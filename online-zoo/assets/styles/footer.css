@@ -242,6 +242,12 @@
 @media(max-width:1599px) {}
 
 @media(max-width:1000px) {
+    .footer {
+        background: #111115;
+    }
+    .footer-donate {
+        background: #111115;
+    }
     .footer .container {
         padding: 5px 18px 0 43px;
     }
@@ -325,6 +331,27 @@
     }
 }
 
+@media (max-width:640px) {
+    .footer-btn {
+        margin-top: 30px;
+    }
+    .footer-center {
+        position: absolute;
+        left: 0;
+        bottom: -120px;
+        padding-left: 20px;
+    }
+    .footer-nav-link {
+        margin-right: 37px;
+    }
+    .social-media {
+        top: -8px;
+    }
+    .social-media-item {
+        margin-top: 20px;
+    }
+}
+
 @media(max-width:600px) {
     .footer-designedby {
         position: absolute;
@@ -374,7 +401,7 @@
     }
     .social-media {
         position: absolute;
-        top: 33px;
+        top: 25px;
         flex-direction: row;
     }
     .social-media-item {

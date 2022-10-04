@@ -106,6 +106,9 @@ h1 {
         top: 0;
         left: 0;
     }
+    .header .wrapper {
+        margin: 0 30px 0 15px;
+    }
     .header-logo-title {
         border: none;
     }
@@ -172,6 +175,22 @@ h1 {
     .icon-menu-active span:last-child {
         transform: rotate(45deg);
         bottom: 4px;
+    }
+}
+
+@media(max-width:320px) {
+    .header .wrapper {
+        margin: 0 10px 0 6px;
+    }
+    .icon-menu {
+        display: block;
+        position: absolute;
+        top: 12px;
+        right: 10px;
+        width: 18px;
+        height: 10px;
+        cursor: pointer;
+        z-index: 5;
     }
 }
 
