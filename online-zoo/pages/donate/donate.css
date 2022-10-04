@@ -11,7 +11,7 @@ body {
 
 @media(max-width:999px) {
     .main-pandabg {
-        height: 335px;
+        height: 369px;
     }
 }
 
@@ -100,6 +100,11 @@ body {
         letter-spacing: 0em;
         text-align: left;
     }
+    .donate-text .orange {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 46px;
+    }
 }
 
 @media(max-width:639px) {
@@ -130,11 +135,36 @@ body {
     margin-top: 40px;
 }
 
+@media(max-width:1599px) {
+    .donate-text .orange {
+        margin-top: 65px;
+    }
+}
+
+@media(max-width:1000px) {
+    .donate-text .orange {
+        margin-top: 65px;
+    }
+}
+
+@media(max-width:639px) {
+    .donate-text .orange {
+        margin-top: 40px;
+    }
+}
+
 .donation-act {
     margin-top: 60px;
     background: rgba(253, 253, 255, 0.52);
     border-radius: 20px;
     padding: 40px 92px 60px;
+}
+
+@media(max-width:1599px) {
+    .donation-act {
+        margin-top: 40px;
+        padding: 20px 65px 30px;
+    }
 }
 
 @media(max-width:999px) {
@@ -172,6 +202,12 @@ body {
     padding-top: 20px;
 }
 
+@media(max-width:1599px) {
+    .donation-act-text {
+        width: 849px;
+    }
+}
+
 @media(max-width:999px) {
     .donation-act-text {
         font-size: 24px;
@@ -197,6 +233,12 @@ body {
     margin-top: 60px;
     justify-content: center;
     align-items: center;
+}
+
+@media(max-width:1599px) {
+    .donation-act .wrapper {
+        margin-left: 25px;
+    }
 }
 
 .donation-act .wrapper .four {

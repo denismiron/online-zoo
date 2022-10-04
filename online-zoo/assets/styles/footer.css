@@ -195,6 +195,12 @@
     color: #bdbdbd;
 }
 
+@media(max-width:1000px) {
+    .footer-email {
+        background: #111115;
+    }
+}
+
 .footer-submit {
     background: var(--color-gray-light);
     width: 129px;
@@ -250,6 +256,9 @@
     }
     .footer .container {
         padding: 5px 18px 0 43px;
+    }
+    .footer-donate .container {
+        padding: 5px 18px 0 35px;
     }
     .social-media {
         margin-top: 34px;
