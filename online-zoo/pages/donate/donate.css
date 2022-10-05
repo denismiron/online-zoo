@@ -636,4 +636,8 @@ body {
     .footer-donate .footer-center {
         bottom: -35px;
     }
+    .footer-logo-title {
+        width: 128px;
+        white-space: nowrap;
+    }
 }
