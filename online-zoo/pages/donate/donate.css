@@ -92,6 +92,9 @@ body {
 }
 
 @media(max-width:999px) {
+    .donate-text {
+        padding-top: 30px;
+    }
     .donate-text h3 {
         max-width: 600px;
         font-size: 24px;
@@ -124,8 +127,17 @@ body {
     text-align: left;
 }
 
+@media(max-width:1599px) {
+    .donate-text p {
+        margin-top: 30px;
+        width: 939px;
+    }
+}
+
 @media(max-width:999px) {
     .donate-text p {
+        margin-top: 20px;
+        width: 600px;
         font-size: 16px;
         font-weight: 400;
         line-height: 22px;
@@ -136,6 +148,7 @@ body {
 
 @media(max-width:639px) {
     .donate-text p {
+        width: 300px;
         margin-top: 20px;
     }
 }
@@ -146,13 +159,13 @@ body {
 
 @media(max-width:1599px) {
     .donate-text .orange {
-        margin-top: 65px;
+        margin-top: 45px;
     }
 }
 
 @media(max-width:999px) {
     .donate-text .orange {
-        margin-top: 35px;
+        margin-top: 30px;
     }
 }
 
@@ -177,13 +190,14 @@ body {
 @media(max-width:1599px) {
     .donation-act {
         margin-top: 40px;
-        padding: 20px 65px 30px;
+        padding: 20px 45px 30px;
     }
 }
 
 @media(max-width:999px) {
     .donation-act {
         padding: 0;
+        padding-top: 20px;
     }
 }
 
@@ -204,7 +218,7 @@ body {
 
 @media(max-width:1000px) {
     .donation-act h2 {
-        padding-top: 20px;
+        padding-top: 0px;
     }
 }
 
@@ -231,6 +245,7 @@ body {
 @media(max-width:1599px) {
     .donation-act-text {
         width: 849px;
+        padding-top: 20px;
     }
 }
 
@@ -264,12 +279,6 @@ body {
     align-items: center;
 }
 
-@media(max-width:1599px) {
-    .donation-act .wrapper {
-        margin-left: 25px;
-    }
-}
-
 @media (max-width:999px) {
     .donation-act .wrapper {
         margin-left: 0;
@@ -278,12 +287,37 @@ body {
 
 @media (max-width:999px) {
     .donation-act .wrapper {
-        margin-top: 30px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:639px) {
+    .donation-act .wrapper {
+        margin-top: 40px;
     }
 }
 
 .donation-act .wrapper .four {
     display: block;
+}
+
+@media (max-width:999px) {
+    .donation-act .wrapper .four {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:639px) {
+    .donation-act .wrapper .four {
+        margin-top: -10px;
+    }
+}
+
+@media (max-width:639px) {
+    .leftside p {
+        width: 159px;
+        white-space: nowrap;
+    }
 }
 
 .donation-act .wrapper p {
@@ -351,15 +385,22 @@ body {
     margin-top: 48px;
 }
 
+@media(max-width:1599px) {
+    .donation-act .amount {
+        margin: 35px 15px 20px;
+    }
+}
+
 @media(max-width:999px) {
     .donation-act .amount {
-        margin-top: 20px;
+        margin: 30px 0 20px;
     }
 }
 
 @media(max-width:639px) {
     .donation-act .amount {
         margin-top: 0px;
+        margin-bottom: 0;
     }
 }
 
@@ -371,9 +412,16 @@ body {
     text-align: left;
 }
 
+@media(max-width:999px) {
+    .donation-act .amount p {
+        margin-left: 10px;
+    }
+}
+
 @media(max-width:639px) {
     .donation-act .amount p {
         margin-top: 0;
+        margin-bottom: 10px;
     }
 }
 
@@ -487,6 +535,12 @@ body {
     top: 38px;
 }
 
+@media(max-width:639px) {
+    .pick-feed-values {
+        top: 20px;
+    }
+}
+
 .pick-feed-values-item {
     width: 75px;
     color: #333B41;
@@ -526,9 +580,21 @@ body {
     margin: 92px auto 0 auto;
 }
 
+@media(max-width:1599px) {
+    .donate-amount-input {
+        margin-top: 80px;
+    }
+}
+
+@media(max-width:999px) {
+    .donate-amount-input {
+        margin-top: 75px;
+    }
+}
+
 @media(max-width:639px) {
     .donate-amount-input {
-        margin-top: 50px;
+        margin-top: 40px;
     }
 }
 
@@ -591,9 +657,24 @@ body {
     color: rgba(255, 255, 255, 1);
 }
 
+@media(max-width:1599px) {
+    .donate-footer-btn {
+        margin-top: 30px;
+    }
+}
+
 @media(max-width:999px) {
     .donate-footer-btn {
-        margin: 32px auto 20px;
+        margin: 30px auto 20px;
+    }
+    .donate-footer-notes {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:639px) {
+    .donate-footer-btn {
+        margin: 27px auto 30px;
     }
 }
 
@@ -617,9 +698,15 @@ body {
     color: var(--color-black-blue);
 }
 
+@media(max-width:1599px) {
+    .donate-footer-text {
+        margin-top: 10px;
+    }
+}
+
 @media(max-width:999px) {
     .donate-footer-text {
-        margin-bottom: 25px;
+        margin-bottom: 32px;
     }
 }
 
