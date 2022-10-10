@@ -170,7 +170,7 @@ body {
         line-height: 20px;
     }
     .animal-online-btn {
-        top: 110%;
+        top: 85%;
         left: 3.5%;
     }
 }
@@ -316,6 +316,16 @@ body {
     }
 }
 
+@media(max-width:600px) {
+    .side-flower {
+        z-index: -1;
+        top: 40%;
+        right: 0%;
+        width: 100px;
+        height: 220px;
+    }
+}
+
 @media(max-width:500px) {
     .backstage-content {
         width: 300px
@@ -339,8 +349,8 @@ body {
         z-index: -1;
         top: 40%;
         right: 0%;
-        width: 100px;
-        height: 220px;
+        width: 25px;
+        height: 200px;
     }
 }
 
@@ -361,13 +371,6 @@ body {
     }
     .backstge-content-text2 {
         width: 300px;
-    }
-    .side-flower {
-        z-index: -1;
-        top: 40%;
-        right: 0%;
-        width: 25px;
-        height: 200px;
     }
 }
 

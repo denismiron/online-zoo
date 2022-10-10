@@ -21,6 +21,10 @@ h1 {
     align-items: center;
 }
 
+.wrapper-burger {
+    display: none;
+}
+
 .header-logo {
     display: flex;
     position: relative;
@@ -108,6 +112,75 @@ h1 {
     }
     .header .wrapper {
         margin: 0 30px 0 15px;
+        display: none;
+    }
+    .header .wrapper-burger .header-nav-burger {
+        display: none;
+    }
+    .wrapper-burger.active {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .wrapper-burger.active .header-nav-burger {
+        display: block;
+    }
+    .wrapper-burger.active nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper-burger.active .wrapper-burger-bg {
+        background-color: #fff;
+    }
+    .wrapper-burger.active .header-logo-title {
+        margin: 10px;
+        background: var(--color-orange);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        border: 1px solid orange;
+    }
+    .wrapper-burger {
+        display: block;
+        margin: 0 30px 0 15px;
+    }
+    .wrapper-burger-bg {
+        height: 43%;
+        width: 100%;
+    }
+    .wrapper-burger-bg.active {
+        transform: translateY(0);
+        transform: translateY(-100%);
+    }
+    .wrapper-burger .active {
+        display: block;
+    }
+    .icon-menu.active {
+        transform: translateX(0);
+        transform: translateX(-100%);
+        transition: transform 0.5s;
+    }
+    .icon-menu.active span {
+        background-color: black;
+    }
+    .icon-menu.active span:first-of-type {
+        transform: translateX(100%);
+        background-color: #fff;
+    }
+    .icon-menu.active span:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    .icon-menu.active span:nth-of-type(3) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    .header-nav-link {
+        margin-top: 15px;
+        margin-left: 15px;
+        color: #333B41;
     }
     .header-logo-title {
         border: none;
@@ -194,7 +267,7 @@ h1 {
     }
 }
 
-.active {
+.header-nav-link.active {
     background: var(--color-orange);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
