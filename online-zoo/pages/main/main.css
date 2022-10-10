@@ -389,6 +389,7 @@ body {
     height: 872px;
     max-width: 1160px;
     margin: 0px auto;
+    overflow: hidden;
 }
 
 .pets-card {
