@@ -404,9 +404,10 @@ body {
     margin-bottom: 20px;
 }
 
-.pets-card:nth-child(6) {
+
+/* .pets-card:nth-child(6) {
     display: none;
-}
+} */
 
 .pets-card:hover {
     background-color: rgba(0, 0, 0, 0.4);
@@ -613,12 +614,12 @@ body {
     .card-content-text {
         margin-top: 5px;
     }
-    .pets-card:nth-child(6) {
+    /* .pets-card:nth-child(6) {
         display: block;
     }
     .pets-card:nth-child(7) {
         display: none;
-    }
+    } */
     .pets-button {
         margin-bottom: 140px;
     }
