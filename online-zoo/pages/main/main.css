@@ -614,19 +614,19 @@ body {
     .card-content-text {
         margin-top: 5px;
     }
-    /* .pets-card:nth-child(6) {
+    .pets-card:nth-child(6) {
         display: block;
     }
     .pets-card:nth-child(7) {
         display: none;
-    } */
+    }
     .pets-button {
         margin-bottom: 140px;
     }
 }
 
 @media(max-width:980px) {
-    .pets .pets-card:nth-last-child(-n+2) {
+    .pets .pets-card:nth-last-child(-n+3) {
         display: none;
     }
     .pets-card-image {

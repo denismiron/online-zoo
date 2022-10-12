@@ -91,42 +91,51 @@
                         </div>
                     </div>
 
-                    <div class="amount">
-                        <p>Amount</p>
-                        <div class="pick-feed-slider">
-                            <input type="range" min="0" max="7" value="2" class="pick-feed-range" id="input-range">
-                            <div class="pick-feed-slider-dots">
-                                <span class="pick-feed-slider-dot"></span>
-                                <span class="pick-feed-slider-dot"></span>
-                                <span class="pick-feed-slider-dot"></span>
-                                <span class="pick-feed-slider-dot"></span>
-                                <span class="pick-feed-slider-dot"></span>
-                                <span class="pick-feed-slider-dot"></span>
-                                <span class="pick-feed-slider-dot"></span>
-                                <span class="pick-feed-slider-dot"></span>
+                    <div class="donate__amount">
+                        <h4 class="donate__amount_title">Amount</h4>
+                        <div class="donate__amount_line">
+                            <div class="donate__amount_line-center">
+                                <div class="donate__amount_line-items">
+                                    <input type="radio" id="5000" name="amount" value="5000" class="donate__amount_line-item donate__amount_line-item-5000">
+                                    <label for="5000" class="item-5000"><span class="circle1 "></span><span class="circle2"></span></label>
+                                    <input type="radio" id="2000" name="amount" value="2000" class="donate__amount_line-item donate__amount_line-item-2000">
+                                    <label for="2000" class="item-2000"><span class="circle1 "></span><span class="circle2"></span></label>
+                                    <input type="radio" id="1000" name="amount" value="1000" class="donate__amount_line-item donate__amount_line-item-1000">
+                                    <label for="1000" class="item-1000"><span class="circle1 "></span><span class="circle2"></span></label>
+                                    <input type="radio" id="500" name="amount" value="500" class="donate__amount_line-item donate__amount_line-item-500">
+                                    <label for="500" class="item-500"><span class="circle1 "></span><span class="circle2"></span></label>
+                                    <input type="radio" id="250" name="amount" value="250" class="donate__amount_line-item donate__amount_line-item-250">
+                                    <label for="250" class="item-250"><span class="circle1 "></span><span class="circle2"></span></label>
+                                    <input type="radio" id="100" name="amount" value="100" class="donate__amount_line-item donate__amount_line-item-100">
+                                    <label for="100" class="item-100"><span class="circle1 "></span><span class="circle2"></span></label>
+                                    <input type="radio" id="50" name="amount" value="50" class="donate__amount_line-item donate__amount_line-item-50">
+                                    <label for="50" class="item-50"><span class="circle1 "></span><span class="circle2"></span></label>
+                                    <input type="radio" id="25" name="amount" value="25" class="donate__amount_line-item donate__amount_line-item-25">
+                                    <label for="25" class="item-25"><span class="circle1 "></span><span class="circle2"></span></label>
+                                </div>
                             </div>
-                            <hr class="pick-feed-slider-line">
-                            <div class="pick-feed-values">
-                                <span data-value="0" class="pick-feed-values-item">$5000</span>
-                                <span data-value="1" class="pick-feed-values-item">$2000</span>
-                                <span data-value="2" class="pick-feed-values-item pick-feed-values-item-active">$1000</span>
-                                <span data-value="3" class="pick-feed-values-item">$500</span>
-                                <span data-value="4" class="pick-feed-values-item">$250</span>
-                                <span data-value="5" class="pick-feed-values-item">$100</span>
-                                <span data-value="6" class="pick-feed-values-item">$50</span>
-                                <span data-value="7" class="pick-feed-values-item">$25</span>
-                            </div>
+
                         </div>
+                        <div class="donate__amount_num">
+                            <p class="donate__amount_num-item donate__amount_num-item-5000">$5000</p>
+                            <p class="donate__amount_num-item donate__amount_num-item-2000">$2000</p>
+                            <p class="donate__amount_num-item donate__amount_num-item-1000">$1000</p>
+                            <p class="donate__amount_num-item donate__amount_num-item-500">$500</p>
+                            <p class="donate__amount_num-item donate__amount_num-item-250">$250</p>
+                            <p class="donate__amount_num-item donate__amount_num-item-active donate__amount_num-item-100">$100</p>
+                            <p class="donate__amount_num-item donate__amount_num-item-50">$50</p>
+                            <p class="donate__amount_num-item donate__amount_num-item-25">$25</p>
+                        </div>
+                        <form class="donate__amount_input">
+                            <input type="number" placeholder="100" value="100" pattern="[0-9]{,4}" max="9999" class="donate__amount_input-input">
+                            <p class="donate__amount_input-dollar">$</p>
+                        </form>
                     </div>
-                    <div class="donate-footer">
-                        <div class="donate-amount-input">
-                            <input type="number" placeholder="100" value="100" pattern="[0-9]{,4}" max="9999" class="donate-amount-input-input">
-                            <p>$</p>
-                        </div>
-                        <div class="donate-footer-notes">
-                            <input type="radio" id="Monthly" name="note" value="Monthly" class="donate-footer-note">
+                    <div class="donate__footer">
+                        <div class="donate__footer_notes">
+                            <input type="radio" id="Monthly" name="note" value="Monthly" class="donate__footer_note">
                             <label for="Monthly">Monthly</label>
-                            <input type="radio" id="Once" name="note" value="Once" class="donate-footer-note" checked>
+                            <input type="radio" id="Once" name="note" value="Once" class="donate__footer_note" checked>
                             <label for="Once">Once</label>
                         </div>
                         <button class="donate-footer-btn">Feed a friend now</button>
